@@ -10,14 +10,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 .menu {
   background-color: #ffffff;
 }
@@ -29,6 +21,17 @@ a:hover {
 
 .menu li {
   list-style: none;
+}
+
+.menu a {
+  color: teal;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
 }
 
 .site-title,
