@@ -1,3 +1,10 @@
+/* soft reset do css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #3176a5;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +33,7 @@ a:hover {
 
 .site-title,
 .site-subtitle {
-  color: whitesmoke;
+  color: whitesmoke; 
   text-align: center;
 }
 
