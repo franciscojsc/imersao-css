@@ -13,9 +13,16 @@ body {
 .header {
   background-color: #3176a5;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #ffffff;
 }
 
