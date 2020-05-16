@@ -69,6 +69,21 @@
       </figure>
     </div>
   </section>
+  <section class="contact">
+    <h2>Contato</h2>
+    <form class="grid" name="form-contact-imersaocss" method="POST" action="/" data-netlify-recaptcha="true"
+      data-netlify="true">
+      <label for="name">Nome</label>
+      <input type="text" id="name" name="name" title="Insira o seu nome" required />
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" title="Insira o seu e-mail" required />
+      <label for="message">Mensagem</label>
+      <textarea name="message" id="message" maxlength="600" cols="35" rows="6" title="Insira o sua mensagem"
+        required></textarea>
+      <div data-netlify-recaptcha=" true"></div>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
   <script src="https://kit.fontawesome.com/f0a4915076.js" crossorigin="anonymous"></script>
 </body>
