@@ -78,6 +78,21 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 
+.group-icons {
+  display: block;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.group-icons a {
+  color: #ffffff;
+  padding: 0.3em;
+}
+
+.group-icons a:hover {
+  color: silver;
+}
+
 .portfolio {
   min-height: 90vh;
   min-height: calc(100vh - 2.2em);
