@@ -52,10 +52,13 @@ body {
   display: block;
   padding: 10px;
   text-decoration: none;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .menu a:hover {
+  color: #ffffff;
   text-decoration: underline;
+  background: #3176a5;
 }
 
 .site-title,
