@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #75b7e2;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
