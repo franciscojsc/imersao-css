@@ -35,6 +35,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
   background-color: #ffffff;
 }
 
@@ -70,6 +71,16 @@ body {
 .site-title {
   font-size: 4em;
   font-family: 'Gloria Hallelujah', cursive;
+  animation: linear 2s animationTitle forwards;
+}
+
+@keyframes animationTitle {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .site-subtitle {
