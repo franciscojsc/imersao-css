@@ -151,6 +151,18 @@ body {
   margin-bottom: 1em;
 }
 
+.about a {
+  text-decoration: none;
+  background-color: #d2dbe7;
+  color: #242424;
+}
+
+.about a:hover {
+  text-decoration: underline;
+  background-color: #e6d7d7;
+  color: #252424;
+}
+
 .about .heart {
   color: #ec3030;
 }
