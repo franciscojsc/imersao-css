@@ -151,6 +151,27 @@ body {
   color: #ec3030;
 }
 
+.about .profile {
+  text-align: center;
+}
+
+.about .profile img {
+  max-width: 280px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+@media (min-width: 700px) {
+  .about .profile {
+    float: right;
+    margin-left: 1em;
+  }
+
+  .about .profile img {
+    max-width: 500px;
+    clip-path: polygon(100% 0%, 87% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  }
+}
+
 .portfolio {
   background-color: #93c3e4;
 }
