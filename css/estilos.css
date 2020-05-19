@@ -117,16 +117,34 @@ body {
   color: silver;
 }
 
-.portfolio, .contact {
+.about,
+.portfolio,
+.contact {
   min-height: 90vh;
   min-height: calc(100vh - 2.2em);
   padding: 1.5em;
 }
 
-.portfolio h2, .contact h2 {
+.about h2,
+.portfolio h2,
+.contact h2 {
   font-size: 2em;
   text-align: center;
   margin-bottom: 0.5em;
+}
+
+.about p {
+  text-indent: 1.5em;
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+.about .heart {
+  color: #ec3030;
+}
+
+.portfolio {
+  background-color: #93c3e4;
 }
 
 .portfolio .grid {
