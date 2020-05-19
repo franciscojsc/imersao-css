@@ -141,6 +141,10 @@ body {
   }
 }
 
+.about {
+  background-color: rgb(157, 203, 247);
+}
+
 .about p {
   text-indent: 1.5em;
   text-align: justify;
