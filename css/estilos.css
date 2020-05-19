@@ -133,6 +133,14 @@ body {
   margin-bottom: 0.5em;
 }
 
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .about p {
   text-indent: 1.5em;
   text-align: justify;
